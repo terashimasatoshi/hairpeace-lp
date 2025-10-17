@@ -1,11 +1,13 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ArrowRight } from "lucide-react";
-import meteoBeforeBefore from "figma:asset/5534e82a6c1e86b442f4899a7a32fa3c975000c2.png";
-import meteoBeforeAfter from "figma:asset/920b6b790ec5bbc5485627eb021b4375ca59e360.png";
-import colorBefore from "figma:asset/5fd309d7191f7b1e9ba8c59c46c4d7f93720f547.png";
-import colorAfter from "figma:asset/227601606c0b8b3350c4c74951ad152c3e1f59d6.png";
-import spaBefore from "figma:asset/7c8c9774b2fb191e3cd6084e73167ada4956c5a0.png";
-import spaAfter from "figma:asset/181870974fb245359e095145f0016adeced765c8.png";
+
+// Google Drive画像URL（実際のサロン写真）
+const meteoBeforeBefore = "https://drive.google.com/thumbnail?id=1ZjAVFb2X1IPOBx7Ui-IVVxRlbGeS4Xm-&sz=w2000";
+const meteoBeforeAfter = "https://drive.google.com/thumbnail?id=19KF2iedIuPEDQkAE24omUcA4jCVsxneA&sz=w2000";
+const colorBefore = "https://drive.google.com/thumbnail?id=1UjRIR9h6fJmGXItonw1utF_jNMUfy3Y1&sz=w2000";
+const colorAfter = "https://drive.google.com/thumbnail?id=1uODzVHzCzbxHg2fnGyKyd-5SQInPtIHH&sz=w2000";
+const spaBefore = "https://drive.google.com/thumbnail?id=1F4ttLUmLQh-s-0Y-JsvEDB2JYKXGOLrO&sz=w2000";
+const spaAfter = "https://drive.google.com/thumbnail?id=1_nOnKSWY_IbECfm5MSONlWsHQdJtV7Af&sz=w2000";
 
 const transformations = [
   {
@@ -38,7 +40,6 @@ export default function BeforeAfter() {
             お客様の髪質とお悩みに合わせた、確かな技術による変化をご覧ください
           </p>
         </div>
-
         <div className="space-y-12">
           {transformations.map((item, index) => (
             <div key={index} className="bg-secondary/30 rounded-2xl overflow-hidden">
@@ -56,7 +57,6 @@ export default function BeforeAfter() {
                     <span className="text-sm">Before</span>
                   </div>
                 </div>
-
                 {/* After */}
                 <div className="relative group">
                   <div className="aspect-[4/3] overflow-hidden">
@@ -71,7 +71,6 @@ export default function BeforeAfter() {
                   </div>
                 </div>
               </div>
-
               {/* Description */}
               <div className="p-6 md:p-8 bg-white">
                 <div className="flex items-center gap-3 mb-2">
@@ -87,7 +86,6 @@ export default function BeforeAfter() {
             </div>
           ))}
         </div>
-
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
             ※効果には個人差があります。写真は実際の施術結果ですが、髪質や状態により仕上がりは異なります。
