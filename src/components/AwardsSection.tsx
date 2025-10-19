@@ -69,7 +69,7 @@ export default function AwardsSection() {
             <h3 className="mb-4">福井市で選ばれ続けて8年</h3>
             
             <p className="text-muted-foreground leading-relaxed mb-6">
-              peaceは2016年の開業以来、お客様一人ひとりの髪質とお悩みに真摯に向き合い、科学的根拠に基づいた施術を提供してまいりました。Hot Pepper Beauty AWARDを8年連続で受賞できたのは、お客様からの信頼と、日々の技術向上への取り組みの結果です。
+              peaceは2016年の開業以来、お客様一人ひとりの髪質とお悩みに真摯に向き合い、科学的根拠に基づいた施術を提供してまいりました。Hot Pepper Beauty AWARD ベストサロンに8年連続で選出できたのは、お客様からの信頼と、日々の技術向上への取り組みの結果です。
             </p>
             
             <p className="text-sm text-muted-foreground">
